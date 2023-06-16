@@ -7,11 +7,11 @@ Console.Write("Введите второе число =>"); //приглашен
 string num2 = Console.ReadLine(); //Ввод пользователем строки
 int number2 = Convert.ToInt32(num2); //Перевод строки в число
 Console.WriteLine($"Вы ввели числа {number1}  и {number2}"); // Вывод введенных чисел
-if (number1 > number2) 
+if (number1 > number2) //Выбор большего числа
 {
-    Console.WriteLine($"число {number1} больше числа {number2}");
+    Console.WriteLine($"число {number1} больше числа {number2}"); //вывод если первое число больше
 }
     else
     {
-       Console.WriteLine($"число {number2} больше числа {number1}"); 
+       Console.WriteLine($"число {number2} больше числа {number1}"); //вывод, если второе число больше
     }
